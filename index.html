@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eksu Bro - Find Your Perfect Off-Campus Apartment</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+        
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .card-gradient-1 {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .card-gradient-2 {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+        
+        .card-gradient-3 {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        }
+        
+        .card-gradient-4 {
+            background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+        }
+        
+        .card-gradient-5 {
+            background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+        }
+        
+        .card-gradient-6 {
+            background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);
+        }
+        
+        .floating {
+            animation: floating 3s ease-in-out infinite;
+        }
+        
+        @keyframes floating {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .pulse-slow {
+            animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        
+        .hover-scale {
+            transition: all 0.3s ease;
+        }
+        
+        .hover-scale:hover {
+            transform: scale(1.05) translateY(-5px);
+        }
+        
+        .hover-glow:hover {
+            box-shadow: 0 0 30px rgba(102, 126, 234, 0.6);
+        }
+        
+        .shine {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .shine::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: left 0.5s;
+        }
+        
+        .shine:hover::before {
+            left: 100%;
+        }
+        
+        .blob {
+            border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+            animation: blob-animation 8s ease-in-out infinite;
+        }
+        
+        @keyframes blob-animation {
+            0%, 100% { border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; }
+            25% { border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%; }
+            50% { border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%; }
+            75% { border-radius: 33% 67% 58% 42% / 63% 68% 32% 37%; }
+        }
+        
+        .particle {
+            position: absolute;
+            border-radius: 50%;
+            animation: particle-float 20s infinite;
+        }
+        
+        @keyframes particle-float {
+            0%, 100% { transform: translate(0, 0) rotate(0deg); opacity: 0.3; }
+            25% { transform: translate(100px, -100px) rotate(90deg); opacity: 0.7; }
+            50% { transform: translate(-50px, -200px) rotate(180deg); opacity: 0.5; }
+            75% { transform: translate(-150px, -100px) rotate(270deg); opacity: 0.6; }
+        }
+        
+        .neon-border {
+            box-shadow: 0 0 5px #667eea, 0 0 10px #667eea, 0 0 20px #667eea;
+        }
+        
+        .scroll-reveal {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 0.8s ease;
+        }
+        
+        .scroll-reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
+    
+    <!-- Animated Background Particles -->
+    <div class="fixed inset-0 overflow-hidden pointer-events-none z-0">
+        <div class="particle w-20 h-20 bg-purple-400 opacity-30 top-20 left-20"></div>
+        <div class="particle w-32 h-32 bg-pink-400 opacity-20 top-40 right-40" style="animation-delay: 2s;"></div>
+        <div class="particle w-24 h-24 bg-blue-400 opacity-25 bottom-20 left-40" style="animation-delay: 4s;"></div>
+        <div class="particle w-16 h-16 bg-green-400 opacity-30 bottom-40 right-20" style="animation-delay: 6s;"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="gradient-bg sticky top-0 z-50 shadow-2xl">
+        <nav class="container mx-auto px-4 sm:px-6 py-3 sm:py-4">
+            <div class="flex justify-between items-center">
+                <div class="animate__animated animate__bounceIn">
+                    <h1 class="text-2xl sm:text-3xl md:text-4xl font-black text-white drop-shadow-lg">✨ Eksu Bro</h1>
+                    <p class="text-xs sm:text-sm text-purple-100 font-medium">Your Trusted Housing Partner</p>
+                </div>
+                <ul id="desktopMenu" class="hidden md:flex space-x-4 lg:space-x-8 text-white font-semibold">
+                    <li><a href="#home" class="hover:text-yellow-300 transition duration-300 hover:scale-110 inline-block text-sm lg:text-base">🏠 Home</a></li>
+                    <li><a href="#agents" class="hover:text-yellow-300 transition duration-300 hover:scale-110 inline-block text-sm lg:text-base">👥 Agents</a></li>
+                    <li><a href="#tips" class="hover:text-yellow-300 transition duration-300 hover:scale-110 inline-block text-sm lg:text-base">💡 Tips</a></li>
+                    <li><a href="#contact" class="hover:text-yellow-300 transition duration-300 hover:scale-110 inline-block text-sm lg:text-base">📞 Contact</a></li>
+                </ul>
+                <button id="mobileMenuButton" class="md:hidden text-white text-3xl focus:outline-none transition-transform duration-300">☰</button>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="hidden md:hidden mt-4 pb-4 space-y-3">
+                <a href="#home" class="block text-white hover:text-yellow-300 transition duration-300 text-lg font-semibold py-2 px-4 rounded-lg hover:bg-white hover:bg-opacity-10">🏠 Home</a>
+                <a href="#agents" class="block text-white hover:text-yellow-300 transition duration-300 text-lg font-semibold py-2 px-4 rounded-lg hover:bg-white hover:bg-opacity-10">👥 Agents</a>
+                <a href="#tips" class="block text-white hover:text-yellow-300 transition duration-300 text-lg font-semibold py-2 px-4 rounded-lg hover:bg-white hover:bg-opacity-10">💡 Tips</a>
+                <a href="#contact" class="block text-white hover:text-yellow-300 transition duration-300 text-lg font-semibold py-2 px-4 rounded-lg hover:bg-white hover:bg-opacity-10">📞 Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative gradient-bg py-24 overflow-hidden">
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="text-center animate__animated animate__fadeInDown">
+                <h2 class="text-5xl md:text-7xl font-black text-white mb-6 drop-shadow-2xl">
+                    🏘️ Find Your Perfect <br>
+                    <span class="text-yellow-300">Off-Campus Apartment</span>
+                </h2>
+                <p class="text-xl md:text-2xl text-purple-100 mb-10 max-w-3xl mx-auto font-medium">
+                    Connect with verified agents and discover quality accommodations near EKSU 🎓
+                </p>
+                <a href="#agents" class="inline-block bg-yellow-400 hover:bg-yellow-300 text-purple-900 font-bold py-5 px-12 rounded-full text-xl shadow-2xl transform hover:scale-110 transition duration-300 shine animate__animated animate__pulse animate__infinite">
+                    🚀 Browse Verified Agents
+                </a>
+            </div>
+        </div>
+        
+        <!-- Floating Elements -->
+        <div class="absolute top-20 left-10 floating">
+            <div class="w-20 h-20 bg-yellow-300 rounded-full opacity-50 blob"></div>
+        </div>
+        <div class="absolute bottom-20 right-10 floating" style="animation-delay: 1s;">
+            <div class="w-32 h-32 bg-pink-300 rounded-full opacity-50 blob"></div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-16 relative z-10">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="bg-white rounded-3xl p-8 shadow-xl hover-scale hover-glow text-center scroll-reveal">
+                    <div class="text-6xl mb-4">🏘️</div>
+                    <h3 class="text-4xl font-black gradient-text mb-2">500+</h3>
+                    <p class="text-gray-600 font-semibold">Properties Listed</p>
+                </div>
+                <div class="bg-white rounded-3xl p-8 shadow-xl hover-scale hover-glow text-center scroll-reveal" style="transition-delay: 0.1s;">
+                    <div class="text-6xl mb-4">✅</div>
+                    <h3 class="text-4xl font-black gradient-text mb-2">50+</h3>
+                    <p class="text-gray-600 font-semibold">Verified Agents</p>
+                </div>
+                <div class="bg-white rounded-3xl p-8 shadow-xl hover-scale hover-glow text-center scroll-reveal" style="transition-delay: 0.2s;">
+                    <div class="text-6xl mb-4">😊</div>
+                    <h3 class="text-4xl font-black gradient-text mb-2">1000+</h3>
+                    <p class="text-gray-600 font-semibold">Happy Students</p>
+                </div>
+                <div class="bg-white rounded-3xl p-8 shadow-xl hover-scale hover-glow text-center scroll-reveal" style="transition-delay: 0.3s;">
+                    <div class="text-6xl mb-4">⭐</div>
+                    <h3 class="text-4xl font-black gradient-text mb-2">4.9</h3>
+                    <p class="text-gray-600 font-semibold">Average Rating</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agents Section -->
+    <section id="agents" class="py-20 relative z-10">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16 scroll-reveal">
+                <h2 class="text-5xl md:text-6xl font-black gradient-text mb-4">🌟 Our Verified Agents</h2>
+                <p class="text-xl text-gray-600 font-medium">Connect directly with trusted property agents via WhatsApp 💬</p>
+            </div>
+            
+            <div id="agentsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Agents will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Tips Section -->
+    <section id="tips" class="py-20 bg-gradient-to-br from-purple-100 via-pink-100 to-blue-100 relative z-10">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16 scroll-reveal">
+                <h2 class="text-5xl md:text-6xl font-black gradient-text mb-4">💡 Essential Guide for Students</h2>
+                <p class="text-xl text-gray-600 font-medium">Everything you need to know before renting 📚</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Before Renting -->
+                <div class="bg-white rounded-3xl p-8 shadow-2xl hover-scale scroll-reveal border-4 border-purple-200">
+                    <div class="text-6xl mb-4">🏠</div>
+                    <h3 class="text-3xl font-black text-purple-600 mb-6">Before Renting</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✓</span>
+                            <span class="text-gray-700 font-medium">Visit the apartment physically before making any payment</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✓</span>
+                            <span class="text-gray-700 font-medium">Check proximity to campus and major landmarks</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✓</span>
+                            <span class="text-gray-700 font-medium">Inspect water supply, electricity, and security</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✓</span>
+                            <span class="text-gray-700 font-medium">Verify the landlord's identity and ownership</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✓</span>
+                            <span class="text-gray-700 font-medium">Ask about additional costs (light, water, waste, security)</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✓</span>
+                            <span class="text-gray-700 font-medium">Take photos/videos of the apartment condition</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Dealing with Agents -->
+                <div class="bg-white rounded-3xl p-8 shadow-2xl hover-scale scroll-reveal border-4 border-pink-200" style="transition-delay: 0.1s;">
+                    <div class="text-6xl mb-4">🤝</div>
+                    <h3 class="text-3xl font-black text-pink-600 mb-6">Dealing with Agents</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✓</span>
+                            <span class="text-gray-700 font-medium">Always verify agent credentials before transacting</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✓</span>
+                            <span class="text-gray-700 font-medium">Request to see multiple options within your budget</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✓</span>
+                            <span class="text-gray-700 font-medium">Clarify agency fees upfront (typically 10-20% of annual rent)</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✓</span>
+                            <span class="text-gray-700 font-medium">Get all agreements in writing</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✓</span>
+                            <span class="text-gray-700 font-medium">Never pay full amount without signed agreement</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✓</span>
+                            <span class="text-gray-700 font-medium">Request receipt for every payment made</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✓</span>
+                            <span class="text-gray-700 font-medium">Keep communication records (chat history)</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Payment Tips -->
+                <div class="bg-white rounded-3xl p-8 shadow-2xl hover-scale scroll-reveal border-4 border-blue-200" style="transition-delay: 0.2s;">
+                    <div class="text-6xl mb-4">💰</div>
+                    <h3 class="text-3xl font-black text-blue-600 mb-6">Payment Tips</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✓</span>
+                            <span class="text-gray-700 font-medium">Budget includes: Rent + Agent Fee + Caution Fee + Utility Deposits</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✓</span>
+                            <span class="text-gray-700 font-medium">Negotiate payment plans if possible</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✓</span>
+                            <span class="text-gray-700 font-medium">Insist on meeting the actual landlord</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✓</span>
+                            <span class="text-gray-700 font-medium">Get official receipts with landlord's signature</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✓</span>
+                            <span class="text-gray-700 font-medium">Verify bank account details before transfers</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✓</span>
+                            <span class="text-gray-700 font-medium">Keep copies of all receipts and agreements</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Red Flags -->
+                <div class="bg-white rounded-3xl p-8 shadow-2xl hover-scale scroll-reveal border-4 border-red-200" style="transition-delay: 0.3s;">
+                    <div class="text-6xl mb-4">⚠️</div>
+                    <h3 class="text-3xl font-black text-red-600 mb-6">Red Flags to Avoid</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✗</span>
+                            <span class="text-gray-700 font-medium">Agents demanding full payment before viewing</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✗</span>
+                            <span class="text-gray-700 font-medium">Deals that seem "too good to be true"</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✗</span>
+                            <span class="text-gray-700 font-medium">Refusal to provide written agreements</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✗</span>
+                            <span class="text-gray-700 font-medium">Pressure to make immediate decisions</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✗</span>
+                            <span class="text-gray-700 font-medium">Agents unwilling to show property ownership proof</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✗</span>
+                            <span class="text-gray-700 font-medium">No physical office or verifiable contact</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-2xl">✗</span>
+                            <span class="text-gray-700 font-medium">Poor communication or evasive answers</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Popular Areas -->
+            <div class="mt-16 scroll-reveal">
+                <div class="bg-white rounded-3xl p-10 shadow-2xl text-center">
+                    <h3 class="text-4xl font-black gradient-text mb-8">📍 Popular Student Areas Near EKSU</h3>
+                    <div class="flex flex-wrap justify-center gap-4">
+                        <span class="card-gradient-1 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover-scale">Iworoko</span>
+                        <span class="card-gradient-2 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover-scale">Oke-Ila</span>
+                        <span class="card-gradient-3 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover-scale">Ilawe Road</span>
+                        <span class="card-gradient-4 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover-scale">Ikoro</span>
+                        <span class="card-gradient-5 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover-scale">Secretariat</span>
+                        <span class="card-gradient-6 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover-scale">Station</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety Section -->
+    <section class="py-20 relative z-10">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16 scroll-reveal">
+                <h2 class="text-5xl md:text-6xl font-black gradient-text mb-4">🛡️ Safety & Security Tips</h2>
+                <p class="text-xl text-gray-600 font-medium">Stay safe while finding your perfect home 🏡</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-gradient-to-br from-purple-500 to-purple-700 rounded-3xl p-8 shadow-2xl hover-scale text-white text-center scroll-reveal">
+                    <div class="text-6xl mb-4">🔒</div>
+                    <h4 class="text-2xl font-black mb-4">Security</h4>
+                    <p class="font-medium">Check for secure doors, windows, and compound fencing. Ask about neighborhood security.</p>
+                </div>
+                <div class="bg-gradient-to-br from-pink-500 to-pink-700 rounded-3xl p-8 shadow-2xl hover-scale text-white text-center scroll-reveal" style="transition-delay: 0.1s;">
+                    <div class="text-6xl mb-4">🚨</div>
+                    <h4 class="text-2xl font-black mb-4">Emergency</h4>
+                    <p class="font-medium">Know the location of nearest police station and hospital. Save emergency contacts.</p>
+                </div>
+                <div class="bg-gradient-to-br from-blue-500 to-blue-700 rounded-3xl p-8 shadow-2xl hover-scale text-white text-center scroll-reveal" style="transition-delay: 0.2s;">
+                    <div class="text-6xl mb-4">👥</div>
+                    <h4 class="text-2xl font-black mb-4">Neighbors</h4>
+                    <p class="font-medium">Meet potential neighbors and ask about the area. Join student housing groups.</p>
+                </div>
+                <div class="bg-gradient-to-br from-green-500 to-green-700 rounded-3xl p-8 shadow-2xl hover-scale text-white text-center scroll-reveal" style="transition-delay: 0.3s;">
+                    <div class="text-6xl mb-4">📝</div>
+                    <h4 class="text-2xl font-black mb-4">Documentation</h4>
+                    <p class="font-medium">Keep all documents safe. Take photos of property condition at move-in.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 gradient-bg relative overflow-hidden z-10">
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="text-center scroll-reveal">
+                <h2 class="text-5xl md:text-6xl font-black text-white mb-6 drop-shadow-2xl">📞 Contact Eksu Bro</h2>
+                <p class="text-2xl text-purple-100 mb-10 font-medium">Have questions or need assistance? Reach out to us! 💬</p>
+                <a href="https://wa.me/2348147356424" target="_blank" class="inline-flex items-center space-x-4 bg-green-500 hover:bg-green-400 text-white font-bold py-6 px-12 rounded-full text-xl shadow-2xl transform hover:scale-110 transition duration-300 shine">
+                    <span class="text-3xl">💬</span>
+                    <span>Chat with Eksu Bro on WhatsApp</span>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Floating Elements -->
+        <div class="absolute top-10 left-10 floating opacity-30">
+            <div class="w-32 h-32 bg-yellow-300 rounded-full blob"></div>
+        </div>
+        <div class="absolute bottom-10 right-10 floating opacity-30" style="animation-delay: 2s;">
+            <div class="w-24 h-24 bg-pink-300 rounded-full blob"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 relative z-10">
+        <div class="container mx-auto px-6 text-center">
+            <h3 class="text-3xl font-black mb-4 gradient-text">✨ Eksu Bro</h3>
+            <p class="text-lg mb-2">Your Trusted Housing Partner for EKSU Students 🎓</p>
+            <p class="text-gray-400 text-sm mb-6">Always verify agent credentials and property details before making payments.</p>
+            <p class="text-gray-400 underline-offset-0 ">Chat with <a class="hover:text-fuchsia-600" href="https://wa.me/2348109972243">Developer</a></p>
+            <p class="text-sm text-gray-500">&copy; 2025 Eksu Bro. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
