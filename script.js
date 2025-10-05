@@ -6,13 +6,13 @@ const agents = [
         experience: "5 years experience",
         properties: "50+ properties",
         specialties: ["Self-contain", "1 Bedroom", "Mini-flats"],
-        areas: "Iworoko, Oke-Ila",
+        areas: "Iworoko, Osekita, Ado, Ekiti",
         gradient: "card-gradient-1",
         icon: "🏠"
     },
     {
-        name: "Mrs. Blessing Ogunlade",
-        phone: "2348023456789",
+        name: "Transreal Real Estate",
+        phone: "2348133979019",
         experience: "4 years experience",
         properties: "40+ properties",
         specialties: ["2 Bedroom", "Shared Apartments", "Studios"],
