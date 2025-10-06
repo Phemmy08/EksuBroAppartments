@@ -3,7 +3,7 @@ const agents = [
     {
         name: "Proton Real Estate",
         phone: "2348143960556",
-        experience: "5 years experience",
+        experience: "EKSU BRO VERIFIED",
         properties: "50+ properties",
         specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
         areas: "Iworoko, Osekita, Ado, Ekiti",
@@ -13,7 +13,7 @@ const agents = [
     {
         name: "Transreal Real Estate",
         phone: "2348133979019",
-        experience: "4 years experience",
+        experience: "EKSU BRO VERIFIED",
         properties: "40+ properties",
         specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
         areas: "Ilawe Road, Ikoro",
@@ -23,7 +23,7 @@ const agents = [
     {
         name: "M.Profact Real Estate",
         phone: "2349137649776",
-        experience: "6 years experience",
+        experience: "EKSU BRO VERIFIED",
         properties: "60+ properties",
         specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
         areas: "No 1, Iworoko Shopping Complex",
@@ -33,7 +33,7 @@ const agents = [
     {
         name: "Eze Accomodations Agency",
         phone: "2347031306165",
-        experience: "3 years experience",
+        experience: "EKSU BRO VERIFIED",
         properties: "35+ properties",
         specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
         areas: "Iworoko, Ilawe Road",
@@ -43,7 +43,7 @@ const agents = [
     {
         name: "Wykay Homes & Properties",
         phone: "2348032730497",
-        experience: "7 years experience",
+        experience: "EKSU BRO VERIFIED",
         properties: "70+ properties",
         specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
         areas: "1, Folade plaza, Iworoko",
@@ -53,7 +53,7 @@ const agents = [
     {
         name: "Honey & Honey Transglobal",
         phone: "2348035282311",
-        experience: "4 years experience",
+        experience: "EKSU BRO VERIFIED",
         properties: "45+ properties",
         specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
         areas: "School gate Area, Iworoko",
@@ -63,7 +63,7 @@ const agents = [
     {
         name: "Pampy Real Estate",
         phone: "2348136616789",
-        experience: "4 years experience",
+        experience: "EKSU BRO VERIFIED",
         properties: "45+ properties",
         specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
         areas: "Opp. Folyfem Junction, Iworoko",
@@ -73,7 +73,7 @@ const agents = [
     {
         name: "Big Reignx Real Estate",
         phone: "2348166195549",
-        experience: "4 years experience",
+        experience: "EKSU BRO VERIFIED",
         properties: "45+ properties",
         specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
         areas: "Iworoko",
@@ -83,7 +83,7 @@ const agents = [
     {
         name: "Topade Real Estate",
         phone: "2348100958455",
-        experience: "4 years experience",
+        experience: "EKSU BRO VERIFIED",
         properties: "45+ properties",
         specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
         areas: "Opp. Afochem Pharmacy, Iworoko",
@@ -93,7 +93,7 @@ const agents = [
     {
         name: "Dekunle Homes & Properties",
         phone: "2348147239528",
-        experience: "4 years experience",
+        experience: "EKSU BRO VERIFIED",
         properties: "45+ properties",
         specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
         areas: "Phase 2 Junction, Iworoko",
@@ -103,7 +103,7 @@ const agents = [
     {
         name: "Fizzy Real Estate & Properties",
         phone: "2348104846708",
-        experience: "4 years experience",
+        experience: "EKSU BRO VERIFIED",
         properties: "45+ properties",
         specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
         areas: "Road 5 Junction, Iworoko",
@@ -113,7 +113,7 @@ const agents = [
     {
         name: "The Voice Real Estate",
         phone: "2349044619606",
-        experience: "4 years experience",
+        experience: "EKSU BRO VERIFIED",
         properties: "45+ properties",
         specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
         areas: "Iworoko",
@@ -123,7 +123,7 @@ const agents = [
     {
         name: "A-Day Concept",
         phone: "2348103085276",
-        experience: "4 years experience",
+        experience: "EKSU BRO VERIFIED",
         properties: "45+ properties",
         specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
         areas: "Toad 4 Junction, Are Road, Iworoko",
@@ -133,7 +133,7 @@ const agents = [
     {
         name: "Aulogy-Akin Ventures",
         phone: "2348142462106",
-        experience: "4 years experience",
+        experience: "EKSU BRO VERIFIED",
         properties: "45+ properties",
         specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
         areas: "Behind Westwave gas station, Iworoko",
@@ -143,11 +143,101 @@ const agents = [
     {
         name: "Glorious Empire Real Estate & Multibiz",
         phone: "2348069438612",
-        experience: "4 years experience",
+        experience: "EKSU BRO VERIFIED",
         properties: "45+ properties",
         specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
         areas: "Opp. St' Micheal Hostel, Phase 2, Iworoko",
         gradient: "card-gradient-3",
+        icon: "👑"
+    },
+    {
+        name: "Jeofair Properties",
+        phone: "2348032296375",
+        experience: "EKSU BRO VERIFIED",
+        properties: "45+ properties",
+        specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
+        areas: "Iworoko",
+        gradient: "card-gradient-4",
+        icon: "👑"
+    },
+    {
+        name: "Bigjoe Multibiz Concept",
+        phone: "2349030995239",
+        experience: "EKSU BRO VERIFIED",
+        properties: "45+ properties",
+        specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
+        areas: "Opposite Afochem Pharamacy, Osekita, Iworoko",
+        gradient: "card-gradient-5",
+        icon: "👑"
+    },
+    {
+        name: "Eniola & Sons",
+        phone: "2348165385552",
+        experience: "EKSU BRO VERIFIED",
+        properties: "45+ properties",
+        specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
+        areas: "Wise Avenue, 2in1 Area, Iworoko",
+        gradient: "card-gradient-6",
+        icon: "👑"
+    },
+    {
+        name: "Apex Properties",
+        phone: "2348148728880",
+        experience: "EKSU BRO VERIFIED",
+        properties: "45+ properties",
+        specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
+        areas: "Opposite Iworoko Commpunity High School, Iworoko",
+        gradient: "card-gradient-1",
+        icon: "👑"
+    },
+    {
+        name: "Alibalika Real Estate",
+        phone: "2347038900072",
+        experience: "EKSU BRO VERIFIED",
+        properties: "45+ properties",
+        specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
+        areas: "Queens Park Hostel, Along UBA gate, Iworoko",
+        gradient: "card-gradient-2",
+        icon: "👑"
+    },
+    {
+        name: "A. Lola Agency",
+        phone: "2347034546993",
+        experience: "EKSU BRO VERIFIED",
+        properties: "45+ properties",
+        specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
+        areas: "Iworoko road, Besite westwave gas station",
+        gradient: "card-gradient-3",
+        icon: "👑"
+    },
+    {
+        name: "Morekeys Real Estate",
+        phone: "2348131878750",
+        experience: "EKSU BRO VERIFIED",
+        properties: "45+ properties",
+        specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
+        areas: "Iworoko road, Besite westwave gas station",
+        gradient: "card-gradient-4",
+        icon: "👑"
+    },
+    {
+        name: "Adewunmi Agency",
+        phone: "2348039684827",
+        experience: "EKSU BRO VERIFIED",
+        properties: "45+ properties",
+        specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
+        areas: "20, Odo Oyi Street, Iworoko",
+        gradient: "card-gradient-5",
+        icon: "👑"
+    },
+    {
+        name: "Ola Real Estate Solution",
+        phone: "2349024897433",
+        experience: "EKSU BRO VERIFIED",
+        properties: "45+ properties",
+        specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
+        areas: "Opposite Egunlusi Health Center, Iworoko",
+        gradient: "card-gradient-6",
         icon: "👑"
     }
 ];
@@ -189,10 +279,7 @@ function createAgentCard(agent, index) {
                     <span class="flex-shrink-0">📅</span>
                     <span class="truncate">${agent.experience}</span>
                 </p>
-                <p class="flex items-center space-x-2 text-sm sm:text-base md:text-lg font-semibold">
-                    <span class="flex-shrink-0">🏘️</span>
-                    <span class="truncate">${agent.properties}</span>
-                </p>
+               
                 <p class="flex items-center space-x-2 text-sm sm:text-base md:text-lg font-semibold">
                     <span class="flex-shrink-0">📍</span>
                     <span class="truncate">${agent.areas}</span>
