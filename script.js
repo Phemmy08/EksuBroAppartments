@@ -5,7 +5,7 @@ const agents = [
         phone: "2348143960556",
         experience: "5 years experience",
         properties: "50+ properties",
-        specialties: ["Self-contain", "1 Bedroom", "Mini-flats"],
+        specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
         areas: "Iworoko, Osekita, Ado, Ekiti",
         gradient: "card-gradient-1",
         icon: "🏠"
@@ -15,49 +15,139 @@ const agents = [
         phone: "2348133979019",
         experience: "4 years experience",
         properties: "40+ properties",
-        specialties: ["2 Bedroom", "Shared Apartments", "Studios"],
+        specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
         areas: "Ilawe Road, Ikoro",
         gradient: "card-gradient-2",
         icon: "🌟"
     },
     {
-        name: "Mr. Daniel Ajayi",
-        phone: "2348034567890",
+        name: "M.Profact Real Estate",
+        phone: "2349137649776",
         experience: "6 years experience",
         properties: "60+ properties",
-        specialties: ["Budget Friendly", "Self-contain", "Shared Flats"],
-        areas: "Station, Secretariat",
+        specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
+        areas: "No 1, Iworoko Shopping Complex",
         gradient: "card-gradient-3",
         icon: "💎"
     },
     {
-        name: "Miss Funke Adebayo",
-        phone: "2348045678901",
+        name: "Eze Accomodations Agency",
+        phone: "2347031306165",
         experience: "3 years experience",
         properties: "35+ properties",
-        specialties: ["Luxury Apartments", "1 Bedroom", "Furnished"],
+        specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
         areas: "Iworoko, Ilawe Road",
         gradient: "card-gradient-4",
         icon: "✨"
     },
     {
-        name: "Mr. Tunde Olawale",
-        phone: "2348056789012",
+        name: "Wykay Homes & Properties",
+        phone: "2348032730497",
         experience: "7 years experience",
         properties: "70+ properties",
-        specialties: ["All Property Types", "New Buildings", "Renovated"],
-        areas: "All Areas",
+        specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
+        areas: "1, Folade plaza, Iworoko",
         gradient: "card-gradient-5",
         icon: "🔥"
     },
     {
-        name: "Mrs. Grace Emmanuel",
-        phone: "2348067890123",
+        name: "Honey & Honey Transglobal",
+        phone: "2348035282311",
         experience: "4 years experience",
         properties: "45+ properties",
-        specialties: ["Female Students Only", "Self-contain", "Shared"],
-        areas: "Oke-Ila, Ikoro",
+        specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
+        areas: "School gate Area, Iworoko",
         gradient: "card-gradient-6",
+        icon: "👑"
+    },
+    {
+        name: "Pampy Real Estate",
+        phone: "2348136616789",
+        experience: "4 years experience",
+        properties: "45+ properties",
+        specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
+        areas: "Opp. Folyfem Junction, Iworoko",
+        gradient: "card-gradient-1",
+        icon: "👑"
+    },
+    {
+        name: "Big Reignx Real Estate",
+        phone: "2348166195549",
+        experience: "4 years experience",
+        properties: "45+ properties",
+        specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
+        areas: "Iworoko",
+        gradient: "card-gradient-2",
+        icon: "👑"
+    },
+    {
+        name: "Topade Real Estate",
+        phone: "2348100958455",
+        experience: "4 years experience",
+        properties: "45+ properties",
+        specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
+        areas: "Opp. Afochem Pharmacy, Iworoko",
+        gradient: "card-gradient-3",
+        icon: "👑"
+    },
+    {
+        name: "Dekunle Homes & Properties",
+        phone: "2348147239528",
+        experience: "4 years experience",
+        properties: "45+ properties",
+        specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
+        areas: "Phase 2 Junction, Iworoko",
+        gradient: "card-gradient-4",
+        icon: "👑"
+    },
+    {
+        name: "Fizzy Real Estate & Properties",
+        phone: "2348104846708",
+        experience: "4 years experience",
+        properties: "45+ properties",
+        specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
+        areas: "Road 5 Junction, Iworoko",
+        gradient: "card-gradient-5",
+        icon: "👑"
+    },
+    {
+        name: "The Voice Real Estate",
+        phone: "2349044619606",
+        experience: "4 years experience",
+        properties: "45+ properties",
+        specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
+        areas: "Iworoko",
+        gradient: "card-gradient-6",
+        icon: "👑"
+    },
+    {
+        name: "A-Day Concept",
+        phone: "2348103085276",
+        experience: "4 years experience",
+        properties: "45+ properties",
+        specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
+        areas: "Toad 4 Junction, Are Road, Iworoko",
+        gradient: "card-gradient-1",
+        icon: "👑"
+    },
+    {
+        name: "Aulogy-Akin Ventures",
+        phone: "2348142462106",
+        experience: "4 years experience",
+        properties: "45+ properties",
+        specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
+        areas: "Behind Westwave gas station, Iworoko",
+        gradient: "card-gradient-2",
+        icon: "👑"
+    },
+    {
+        name: "Glorious Empire Real Estate & Multibiz",
+        phone: "2348069438612",
+        experience: "4 years experience",
+        properties: "45+ properties",
+        specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
+        areas: "Opp. St' Micheal Hostel, Phase 2, Iworoko",
+        gradient: "card-gradient-3",
         icon: "👑"
     }
 ];
@@ -66,6 +156,7 @@ const agents = [
 function getInitials(name) {
     return name.split(' ')
         .map(word => word[0])
+
         .join('')
         .toUpperCase();
 }
