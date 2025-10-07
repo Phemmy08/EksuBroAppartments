@@ -16,7 +16,7 @@ const agents = [
         experience: "EKSU BRO VERIFIED",
         properties: "40+ properties",
         specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
-        areas: "Ilawe Road, Ikoro",
+        areas: "Opposite Iworoko Community High School, Ilawe Road",
         gradient: "card-gradient-2",
         icon: "🌟"
     },
