@@ -6,7 +6,7 @@ const agents = [
         experience: "EKSU BRO VERIFIED",
         properties: "50+ properties",
         specialties: ["Self-contain", "1 Bedroom", "Mini-flats", "Shared Apartments"],
-        areas: "Iworoko, Osekita, Ado, Ekiti",
+        areas: "Opposite School Gate, Iworoko, Osekita",
         gradient: "card-gradient-1",
         icon: "🏠"
     },
