@@ -11,7 +11,7 @@ const agents = [
         icon: "🏠"
     },
     {
-        name: "Transreal Real Estate",
+        name: "Transreal Properties",
         phone: "2348133979019",
         experience: "EKSU BRO VERIFIED",
         properties: "40+ properties",
